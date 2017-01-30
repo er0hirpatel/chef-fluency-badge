@@ -5,7 +5,7 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 	if node['platform_family'] == "rhel"
 		package = "httpd"
-	elseif node['platform_family'] == "debian"
+	elsif node['platform_family'] == "debian"
 		pachage = "apache2"
 	end
 	package 'apache2' do

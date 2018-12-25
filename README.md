@@ -21,6 +21,7 @@ A cookbook is the fundamental unit of configuration and policy distribution. A s
     $ knife upload cookbooks/starter
 
 For more information about cookbooks, see the example files in the `starter` cookbook.
+For more information about cookbooks, see the example files in the `starter` cookbook.
 
 Roles
 -----
